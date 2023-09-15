@@ -1,0 +1,1 @@
+package com.todoList.demo.repository;import com.todoList.demo.entity.Users;import org.springframework.data.jpa.repository.JpaRepository;public interface UserRepository extends JpaRepository<Users,Integer> {    Users findByEmail(String email);}
