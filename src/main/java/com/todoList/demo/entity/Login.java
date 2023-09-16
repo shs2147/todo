@@ -1,1 +1,1 @@
-package com.todoList.demo.entity;public class Login {    public String email;    public String pass;}
+package com.todoList.demo.entity;import lombok.Data;@Datapublic class Login {    public String username;    public String password;}

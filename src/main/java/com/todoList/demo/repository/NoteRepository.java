@@ -1,0 +1,1 @@
+package com.todoList.demo.repository;import com.todoList.demo.entity.Note;import org.springframework.data.jpa.repository.JpaRepository;public interface NoteRepository extends JpaRepository<Note,Long> {}
